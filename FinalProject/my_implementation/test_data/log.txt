@@ -1,0 +1,310 @@
+62.4s	6460	Networks: ['BioGRID', 'STRING-EXP', 'GIANT-TN', 'STRING']
+
+62.4s	6461	Geneset Collections: ['GOBP', 'DisGeNet', 'BeFree', 'GWAS', 'MGI']
+
+62.4s	6462	Validation splits: ['Holdout', '5FCV']
+
+62.4s	6463	Methods: ['SL-A']
+
+62.4s	6464	Append: False
+
+62.4s	6465	Verbose: False
+
+62.4s	6466	Output: github/results/main_result_SL_A.tsv
+
+62.4s	6467	--------------------------------------------------------------------------------
+
+62.4s	6468	Start loading network: BioGRID...
+
+63.6s	6469	Function call <bound method WUGraph.from_edgelist of <class 'core.graph.WUGraph'>> ran for 0:0:1
+
+63.6s	6470	Start evaluating BioGRID on geneset collection: GOBP
+
+1242.9s	6471	Start evaluating BioGRID on geneset collection: DisGeNet
+
+2222.4s	6472	Start evaluating BioGRID on geneset collection: BeFree
+
+2525.1s	6473	Start evaluating BioGRID on geneset collection: GWAS
+
+2644.4s	6474	Start evaluating BioGRID on geneset collection: MGI
+
+3318.5s	6475	Start loading network: STRING-EXP...
+
+3319.2s	6476	Function call <bound method WUGraph.from_edgelist of <class 'core.graph.WUGraph'>> ran for 0:0:0
+
+3319.2s	6477	Start evaluating STRING-EXP on geneset collection: GOBP
+
+4017.0s	6478	Start evaluating STRING-EXP on geneset collection: DisGeNet
+
+4556.0s	6479	Start evaluating STRING-EXP on geneset collection: BeFree
+
+4724.7s	6480	Start evaluating STRING-EXP on geneset collection: GWAS
+
+4785.9s	6481	Start evaluating STRING-EXP on geneset collection: MGI
+
+5146.4s	6482	Start loading network: GIANT-TN...
+
+5278.4s	6483	Function call <bound method WUGraph.from_edgelist of <class 'core.graph.WUGraph'>> ran for 0:2:12
+
+5278.4s	6484	Start evaluating GIANT-TN on geneset collection: GOBP
+
+7576.0s	6485	Start evaluating GIANT-TN on geneset collection: DisGeNet
+
+9435.3s	6486	Start evaluating GIANT-TN on geneset collection: BeFree
+
+9999.4s	6487	Start evaluating GIANT-TN on geneset collection: GWAS
+
+10253.4s	6488	Start evaluating GIANT-TN on geneset collection: MGI
+
+11563.8s	6489	Start loading network: STRING...
+
+11576.5s	6490	Function call <bound method WUGraph.from_edgelist of <class 'core.graph.WUGraph'>> ran for 0:0:12
+
+11576.5s	6491	Start evaluating STRING on geneset collection: GOBP
+
+13070.2s	6492	Start evaluating STRING on geneset collection: DisGeNet
+
+13315.3s	6493	/usr/local/lib/python3.10/dist-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+
+13315.3s	6494	STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+13315.3s	6495	
+
+13315.3s	6496	Increase the number of iterations (max_iter) or scale the data as shown in:
+
+13315.3s	6497	    https://scikit-learn.org/stable/modules/preprocessing.html
+
+13315.3s	6498	Please also refer to the documentation for alternative solver options:
+
+13315.3s	6499	    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+
+13315.3s	6500	  n_iter_i = _check_optimize_result(
+
+14515.0s	6501	Start evaluating STRING on geneset collection: BeFree
+
+14915.1s	6502	Start evaluating STRING on geneset collection: GWAS
+
+15091.1s	6503	Start evaluating STRING on geneset collection: MGI
+
+16135.1s	6504	Function call <function run at 0x7c5bc29dbac0> ran for 4:27:52
+
+16135.6s	6505	[31mSL_A done![0m
+16137.4s	6506	Networks: ['BioGRID', 'STRING-EXP', 'GIANT-TN', 'STRING']
+
+16137.4s	6507	Geneset Collections: ['GOBP', 'DisGeNet', 'BeFree', 'GWAS', 'MGI']
+
+16137.4s	6508	Validation splits: ['Holdout', '5FCV']
+
+16137.4s	6509	Methods: ['LP-A']
+
+16137.4s	6510	Append: False
+
+16137.4s	6511	Verbose: False
+
+16137.4s	6512	Output: github/results/main_result_LP_A.tsv
+
+16137.4s	6513	--------------------------------------------------------------------------------
+
+16137.4s	6514	Start loading network: BioGRID...
+
+16138.6s	6515	Function call <bound method WUGraph.from_edgelist of <class 'core.graph.WUGraph'>> ran for 0:0:1
+
+16138.6s	6516	Start evaluating BioGRID on geneset collection: GOBP
+
+16170.2s	6517	Start evaluating BioGRID on geneset collection: DisGeNet
+
+16204.1s	6518	Start evaluating BioGRID on geneset collection: BeFree
+
+16222.3s	6519	Start evaluating BioGRID on geneset collection: GWAS
+
+16232.9s	6520	Start evaluating BioGRID on geneset collection: MGI
+
+16266.6s	6521	Start loading network: STRING-EXP...
+
+16267.3s	6522	Function call <bound method WUGraph.from_edgelist of <class 'core.graph.WUGraph'>> ran for 0:0:0
+
+16267.3s	6523	Start evaluating STRING-EXP on geneset collection: GOBP
+
+16285.3s	6524	Start evaluating STRING-EXP on geneset collection: DisGeNet
+
+16302.6s	6525	Start evaluating STRING-EXP on geneset collection: BeFree
+
+16311.6s	6526	Start evaluating STRING-EXP on geneset collection: GWAS
+
+16317.0s	6527	Start evaluating STRING-EXP on geneset collection: MGI
+
+16333.9s	6528	Start loading network: GIANT-TN...
+
+16480.0s	6529	Function call <bound method WUGraph.from_edgelist of <class 'core.graph.WUGraph'>> ran for 0:2:26
+
+16480.0s	6530	Start evaluating GIANT-TN on geneset collection: GOBP
+
+16612.5s	6531	Start evaluating GIANT-TN on geneset collection: DisGeNet
+
+16754.1s	6532	Start evaluating GIANT-TN on geneset collection: BeFree
+
+16830.9s	6533	Start evaluating GIANT-TN on geneset collection: GWAS
+
+16880.6s	6534	Start evaluating GIANT-TN on geneset collection: MGI
+
+17045.8s	6535	Start loading network: STRING...
+
+17058.5s	6536	Function call <bound method WUGraph.from_edgelist of <class 'core.graph.WUGraph'>> ran for 0:0:12
+
+17058.5s	6537	Start evaluating STRING on geneset collection: GOBP
+
+17112.4s	6538	Start evaluating STRING on geneset collection: DisGeNet
+
+17170.2s	6539	Start evaluating STRING on geneset collection: BeFree
+
+17198.9s	6540	Start evaluating STRING on geneset collection: GWAS
+
+17218.9s	6541	Start evaluating STRING on geneset collection: MGI
+
+17283.6s	6542	Function call <function run at 0x7992e0e00d30> ran for 0:19:6
+
+17283.9s	6543	[31mLP_A done![0m
+17284.9s	6544	Networks: ['BioGRID', 'STRING-EXP', 'GIANT-TN', 'STRING']
+
+17284.9s	6545	Geneset Collections: ['GOBP', 'DisGeNet', 'BeFree', 'GWAS', 'MGI']
+
+17284.9s	6546	Validation splits: ['Holdout', '5FCV']
+
+17284.9s	6547	Methods: ['SL-I']
+
+17284.9s	6548	Append: False
+
+17284.9s	6549	Verbose: False
+
+17284.9s	6550	Output: github/results/main_result_SL_I.tsv
+
+17284.9s	6551	--------------------------------------------------------------------------------
+
+17284.9s	6552	Loading and random walking on BioGRID...
+
+17284.9s	6553	Traceback (most recent call last):
+
+17284.9s	6554	  File "/kaggle/working/github/src/main.py", line 158, in <module>
+
+17284.9s	6555	    timeit(run, args.networks, args.gscs, args.valsplits, args.methods, \
+
+17284.9s	6556	  File "/kaggle/working/github/src/main.py", line 64, in timeit
+
+17284.9s	6557	    result = fun(*args, **kwargs)
+
+17284.9s	6558	  File "/kaggle/working/github/src/main.py", line 114, in run
+
+17284.9s	6559	    adjmat, infmat, emdmat = get_graphs(methods, network)
+
+17284.9s	6560	  File "/kaggle/working/github/src/main.py", line 84, in get_graphs
+
+17284.9s	6561	    infmat = timeit(core.graph.Influence.from_edgelist, pth_to_network, beta=0.85)
+
+17284.9s	6562	  File "/kaggle/working/github/src/main.py", line 64, in timeit
+
+17284.9s	6563	    result = fun(*args, **kwargs)
+
+17284.9s	6564	TypeError: WUGraph.from_edgelist() got an unexpected keyword argument 'beta'
+
+17285.2s	6565	[31mSL_I done![0m
+17286.2s	6566	Networks: ['BioGRID', 'STRING-EXP', 'GIANT-TN', 'STRING']
+
+17286.2s	6567	Geneset Collections: ['GOBP', 'DisGeNet', 'BeFree', 'GWAS', 'MGI']
+
+17286.2s	6568	Validation splits: ['Holdout', '5FCV']
+
+17286.2s	6569	Methods: ['LP-I']
+
+17286.2s	6570	Append: False
+
+17286.2s	6571	Verbose: False
+
+17286.2s	6572	Output: github/results/main_result_LP_I.tsv
+
+17286.2s	6573	--------------------------------------------------------------------------------
+
+17286.2s	6574	Loading and random walking on BioGRID...
+
+17286.2s	6575	Traceback (most recent call last):
+
+17286.2s	6576	  File "/kaggle/working/github/src/main.py", line 158, in <module>
+
+17286.2s	6577	    timeit(run, args.networks, args.gscs, args.valsplits, args.methods, \
+
+17286.2s	6578	  File "/kaggle/working/github/src/main.py", line 64, in timeit
+
+17286.2s	6579	    result = fun(*args, **kwargs)
+
+17286.2s	6580	  File "/kaggle/working/github/src/main.py", line 114, in run
+
+17286.2s	6581	    adjmat, infmat, emdmat = get_graphs(methods, network)
+
+17286.2s	6582	  File "/kaggle/working/github/src/main.py", line 84, in get_graphs
+
+17286.2s	6583	    infmat = timeit(core.graph.Influence.from_edgelist, pth_to_network, beta=0.85)
+
+17286.2s	6584	  File "/kaggle/working/github/src/main.py", line 64, in timeit
+
+17286.2s	6585	    result = fun(*args, **kwargs)
+
+17286.2s	6586	TypeError: WUGraph.from_edgelist() got an unexpected keyword argument 'beta'
+
+17286.5s	6587	[31mLP_I done![0m
+17287.5s	6588	Networks: ['BioGRID', 'STRING-EXP', 'GIANT-TN', 'STRING']
+
+17287.5s	6589	Geneset Collections: ['GOBP', 'DisGeNet', 'BeFree', 'GWAS', 'MGI']
+
+17287.5s	6590	Validation splits: ['Holdout', '5FCV']
+
+17287.5s	6591	Methods: ['SL-E']
+
+17287.5s	6592	Append: False
+
+17287.5s	6593	Verbose: False
+
+17287.5s	6594	Output: github/results/main_result_SL_E.tsv
+
+17287.5s	6595	--------------------------------------------------------------------------------
+
+17287.5s	6596	Loading embedding for BioGRID...
+
+17289.8s	6597	Function call <bound method Embedding.from_emd of <class 'core.graph.Embedding'>> ran for 0:0:2
+
+17289.8s	6598	Start evaluating BioGRID on geneset collection: GOBP
+
+17325.6s	6599	Start evaluating BioGRID on geneset collection: DisGeNet
+
+17357.4s	6600	Start evaluating BioGRID on geneset collection: BeFree
+
+17369.6s	6601	Start evaluating BioGRID on geneset collection: GWAS
+
+17375.0s	6602	Start evaluating BioGRID on geneset collection: MGI
+
+17398.8s	6603	Loading embedding for STRING-EXP...
+
+17400.4s	6604	Function call <bound method Embedding.from_emd of <class 'core.graph.Embedding'>> ran for 0:0:1
+
+17400.4s	6605	Start evaluating STRING-EXP on geneset collection: GOBP
+
+17433.5s	6606	Start evaluating STRING-EXP on geneset collection: DisGeNet
+
+17461.4s	6607	Start evaluating STRING-EXP on geneset collection: BeFree
+
+17471.7s	6608	Start evaluating STRING-EXP on geneset collection: GWAS
+
+17475.9s	6609	Start evaluating STRING-EXP on geneset collection: MGI
+
+17495.7s	6610	Loading embedding for GIANT-TN...
+
+17498.5s	6611	Function call <bound method Embedding.from_emd of <class 'core.graph.Embedding'>> ran for 0:0:2
+
+17498.5s	6612	Start evaluating GIANT-TN on geneset collection: GOBP
+
+17539.7s	6613	Start evaluating GIANT-TN on geneset collection: DisGeNet
+
+17575.4s	6614	Start evaluating GIANT-TN on geneset collection: BeFree
+
+17587.9s	6615	Start evaluating GIANT-TN on geneset collection: GWAS
+
+17594.4s	6616	Start evaluating GIANT-TN on geneset collection: MGI
+
